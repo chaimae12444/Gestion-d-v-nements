@@ -1,0 +1,46 @@
+body {
+    font-family: Arial;
+    background: #eae7e1;
+    color: #1a1200;
+    margin: 0;
+    padding: 20px;
+}
+a {
+    color: #4a6592;
+}
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.card {
+    background: #d7d3c9dd;
+    padding: 15px;
+    border-radius: 10px;
+    width: 220px;
+    border: 1px solid #3d2600;
+  
+}
+button {
+    width: 100%;
+    margin-top: 10px;
+    background: #3f2d1f;
+    color: white;
+    border-radius: 6px;
+}
+
+
+.soldout {
+    color: red;
+}
+
+
+input {
+    width: 100%;
+    padding: 4px;
+    background: #fff;
+    color: #111;
+    border: 1px solid #3d2600;
+    border-radius: 4px;
+}
